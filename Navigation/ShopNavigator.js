@@ -7,7 +7,7 @@ const ProductNavigator = createStackNavigator
 ({
     ProductOverview: ProductOverviewScreen
 },{
-    defaultNavigationOption:
+    defaultNavigationOptions:
     {
         headerStyle: {
             backgroundColor: Colors.primary
