@@ -9,7 +9,7 @@ const ProductOverviewScreen = props =>
     <Flatlist 
      data={products} 
      keyExractor={item =>item.id} 
-     renderItem={itemData => <Text>fad{itemData.item.title}</Text>}
+     renderItem={itemData => <Text>fadsdsdfsdf sddf sdfsd {itemData.item.title}</Text>}
     />
     );
 };
